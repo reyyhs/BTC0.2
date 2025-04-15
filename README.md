@@ -1,8 +1,12 @@
 # BTC0.2
 Installation
 1. Install Python new version
-2. Install GIT : ``apt Install git``
-3. Download script manual or use git :
+2. Install GIT :
+
+>``apt Install git``
+
+
+4. Download script manual or use git :
 
    
 >``git clone https://www.github.com/reyyhs/BTC0.2``
