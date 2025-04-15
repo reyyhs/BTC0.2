@@ -3,9 +3,9 @@ Installation
 1. Install Python new version
 2. Install GIT : ``apt Install git``
 3. Download script manual or use git :
-``git clone (https://www.github.com/Reyyhs/BTC0.2)``
+``git clone https://www.github.com/Reyyhs/BTC0.2``
 4. Make sure you already in bot folder :
-``CD BTC0.2``
+``CD BTC 0.2``
 5. Install Module :
 ``pip install bitcoinlib requests tqdm``
 6. Run Command :
