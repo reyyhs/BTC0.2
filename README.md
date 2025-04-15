@@ -5,25 +5,25 @@ Installation
 ```bash
 apt Install git
 ```
-4. Download script manual or use git :
+3. Download script manual or use git :
 
 ```bash
 git clone https://www.github.com/reyyhs/BTC0.2
 ```
 
-5. Make sure you already in bot folder :
+4. Make sure you already in bot folder :
 
 ```bash
 CD BTC0.2
 ```
 
-7. Install Module :
+5. Install Module :
 
 ```bash
 pip install bitcoinlib requests tqdm
 ```
 
-9. Run Command :
+6. Run Command :
 
 ```bash    
 python run.py
