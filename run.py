@@ -7,7 +7,7 @@ import requests
 from tqdm import tqdm
 
 # Konfigurasi
-MAX_ATTEMPTS = 500  # Kamu bisa ubah jumlah percobaan
+MAX_ATTEMPTS = 100000  # Kamu bisa ubah jumlah percobaan
 LOG_DIR = "logs"
 SAVE_FILE = os.path.join(LOG_DIR, "found_wallets.txt")
 ATTEMPT_FILE = os.path.join(LOG_DIR, "all_attempts.json")
