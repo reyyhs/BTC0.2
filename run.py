@@ -24,8 +24,8 @@ def check_balance(address):
             data = response.json()
             return data['final_balance'] / 1e8  # Satoshi ke BTC
         elif response.status_code == 429:
-            print("[!] Terlalu banyak permintaan, istirahat 10 detik...")
-            time.sleep(10)
+            print("[!] Terlalu banyak permintaan, istirahat 5 detik...")
+            time.sleep(5)
     except Exception as e:
         print(f"[!] Gagal mengambil data: {e}")
     return 0.0
